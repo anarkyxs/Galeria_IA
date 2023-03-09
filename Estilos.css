@@ -95,3 +95,12 @@ h2 {
 .item:hover p {
   display: block;
 }
+
+
+.item img {
+    transition: transform 0.3s;
+  }
+  
+  .item img:hover {
+    transform: scale(1.3);
+  }
